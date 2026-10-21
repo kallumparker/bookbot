@@ -1,7 +1,7 @@
 # BookBot
 BookBot is a command-line application in Python that does static analysis on text files, or rather, entire novels like "Frankenstein".
 
-Currently the application only accepts hard-coded file paths. This will be changed in the future to accept input when running the application.
+BookBot accepts a text file path as a command-line argument and reports its word count and alphabetic character counts.
 
 ## Getting Started
 Please, follow the instructions below for installing and running BookBot.
@@ -21,7 +21,8 @@ $ chmod +x main.py
 ```
 
 ### Usage
-Update the `book_path` variable at the top of main function with the path of the document you would like to analyse.
 ```bash
-$ python3 main.py
+$ python3 main.py books/frankenstein.txt
 ```
+
+Other text files can be analyzed by passing their paths as arguments.
